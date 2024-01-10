@@ -1,0 +1,174 @@
+/*?------------------- GLOBAL-------------------------------- */
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+/*!----------------------------------------------------------- */
+
+/*?----------------HEADER------------------------------------- */
+.header {}
+
+.header-nav {
+    display: flex;
+}
+
+
+.header-nav-logo {}
+
+.headern-n-logo-img {}
+
+
+.header-menu-list {
+    display: flex;
+}
+
+.header-menu-item {}
+
+.header-menu-link {}
+
+
+.header-soc-list {}
+
+.header-soc-item {}
+
+.header-soc-link {}
+
+/*!-------------------------------------------------------------- */
+/*?-----------------HERO----------------------------------------- */
+.hero {}
+
+.hero-title {}
+
+
+.hero-bye-btn {}
+
+.hero-made-btn {}
+
+.hero-down-btn {}
+/*!-------------------------------------------------------------- */
+/*?--------------- features-------------------------------------- */
+.features {}
+
+.features-list {}
+
+.features-item {}
+
+.features-subtitle {}
+
+.features-item-text {}
+/* !---------------------------------------------------------------- */
+/*? ----------------taste--------------------------------------------*/
+.taste {}
+
+.taste-title {}
+
+.taste-text {}
+
+.taste-list {}
+
+.taste-item {}
+
+.taste-subtitle {}
+
+.taste-item-img {}
+/* !--------------------------------------------------------------- */
+/* ?-----------------made------------------------------------------ */
+.made {}
+
+.made-title {}
+
+.made-t-img {}
+
+.made-subtitle {}
+
+.made-list {}
+
+.made-item {}
+/* !--------------------------------------------------------------- */
+/*?----------------- products-------------------------------------- */
+.products {}
+
+.products-title {}
+
+.products-list {}
+
+.products-item {}
+
+.products-img {}
+
+.products-subtitle {}
+
+.products-item-text {}
+
+.products-item-btn {}
+/* !----------------------------------------------------------------- */
+/*?--------------------sellers--------------------------------------- */
+.sellers {}
+
+.sellers-title {}
+
+.sellers-list {}
+
+.sellers-item {}
+
+.sellers-img {}
+
+.sellers-subtitle {}
+/* !------------------------------------------------------------------ */
+/* ?-------------------loved------------------------------------------ */
+.loved {}
+
+.loved-title {}
+
+.loved-list {}
+
+.loved-item {}
+
+.loved-img {}
+
+.loved-subtitle {}
+
+.loved-item-text {}
+
+.loved-btn {}
+/*!------------------------------------------------------------------- */
+/* ?--------------------footer---------------------------------------- */
+.footer {}
+
+.footer-heading {}
+
+.footer-subtitle {}
+
+.footer-soc-list {}
+
+.footer-soc-item {}
+
+.footer-soc-link {}
+
+.footer-address {}
+
+.footer-address-list {}
+
+.footer-addres-item {}
+
+.footer-addres-link {}
+
+.footer-navigation {}
+
+.footer-menu-list {}
+
+.footer-menu-item {}
+
+.footer-menu-link {}
+/* !------------------------------------------------------------------ */
