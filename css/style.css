@@ -127,6 +127,8 @@ address {
     font-size: 14px;
     font-weight: 600;
     line-height: normal;
+        border-radius: 100px;
+            background-color: #FD9222;
 }
 
 .hero-made-btn {
@@ -134,6 +136,8 @@ address {
         font-size: 14px;
         font-weight: 600;
         line-height: normal;
+        border-radius: 100px;
+            border: 1px solid #FFF;
 }
 
 .hero-down-btn {
@@ -142,6 +146,7 @@ address {
     font-weight: 500;
     line-height: 1.28;
     letter-spacing: -0.03em;
+
 }
 /*!-------------------------------------------------------------- */
 /*?--------------- features-------------------------------------- */
@@ -244,7 +249,18 @@ address {
 /*?----------------- products-------------------------------------- */
 .products {}
 
-.products-title {}
+.products-title {
+    color: #111;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 1.17;
+        letter-spacing: -0.03em;
+        text-transform: uppercase;
+}
+.products-title span{
+    color: #FD9222;
+}
 
 .products-list {}
 
@@ -252,16 +268,49 @@ address {
 
 .products-img {}
 
-.products-subtitle {}
+.products-subtitle {
+    color: #111;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 1.33;
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+}
 
-.products-item-text {}
+.products-item-text {
+    color: rgba(17, 17, 17, 0.70);
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 1.17;
+        letter-spacing: -0.02em;
+}
 
-.products-item-btn {}
+.products-item-btn {
+    color: #111;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: normal;
+        border-radius: 100px;
+            border: 1px solid rgba(17, 17, 17, 0.10);
+            background: #FAFAFA;
+}
 /* !----------------------------------------------------------------- */
 /*?--------------------sellers--------------------------------------- */
 .sellers {}
 
-.sellers-title {}
+.sellers-title {
+    color: #111;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+}
+ .sellers-title span{
+    color: #FD9222;
+    text-align: center;
+ }
 
 .sellers-list {}
 
@@ -269,12 +318,33 @@ address {
 
 .sellers-img {}
 
-.sellers-subtitle {}
+.sellers-subtitle {
+    color: #111;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 1.33;
+        letter-spacing: -0.02;
+        text-transform: uppercase;
+}
 /* !------------------------------------------------------------------ */
 /* ?-------------------loved------------------------------------------ */
 .loved {}
 
-.loved-title {}
+.loved-title {
+    color: #111;
+    font-family: Montserrat;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 28px;
+        letter-spacing: -0.72px;
+        text-transform: uppercase;
+        text-align: center;
+}
+.loved-title span{
+    color: #FD9222;
+    text-align: center;
+}
 
 .loved-list {}
 
@@ -282,18 +352,57 @@ address {
 
 .loved-img {}
 
-.loved-subtitle {}
+.loved-subtitle {
+    color: #111;
+    text-align: center;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 1.33;
+}
 
-.loved-item-text {}
+.loved-item-text {
+    color: rgba(17, 17, 17, 0.70);
+    text-align: center;
+        font-size: 14px;
+        line-height: 1.29;
+        letter-spacing: -0.03em;
+}
 
-.loved-btn {}
+.loved-btn {
+    color: #111;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        border-radius: 100px;
+        border: 1px solid #FD9222;
+}
 /*!------------------------------------------------------------------- */
 /* ?--------------------footer---------------------------------------- */
-.footer {}
+.footer {
+    background: #1E1823;
+}
 
-.footer-heading {}
+.footer-heading {
+    color: #FFF;
+        font-family: Montserrat;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 34px;
+        letter-spacing: -0.02em;
+}
+.footer-heading span{
+    color: #FD9222;
+}
 
-.footer-subtitle {}
+.footer-subtitle {
+    color: #FFF;
+    text-align: center;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1.29;
+}
 
 .footer-soc-list {}
 
@@ -305,9 +414,18 @@ address {
 
 .footer-address-list {}
 
-.footer-addres-item {}
+.footer-addres-item {
 
-.footer-addres-link {}
+}
+
+.footer-addres-link {
+    color: #FFF;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.29;
+        letter-spacing: -0.02em;
+}
 
 .footer-navigation {}
 
@@ -315,5 +433,16 @@ address {
 
 .footer-menu-item {}
 
-.footer-menu-link {}
+.footer-menu-link {
+    color: #FFF;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1.14;
+        letter-spacing: -0.02em;
+}
+.footer-menu-link:hover,
+.footer-menu-link:focus,
+.footer-menu-link:active {
+    color: #FD9222;
+}
 /* !------------------------------------------------------------------ */
